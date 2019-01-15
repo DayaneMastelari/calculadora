@@ -1,0 +1,1 @@
+<?php	require_once("index.php");	require_once("class/calculadora.php");		$valorUm = $_POST['valorUm'];	$valorDois = $_POST['valorDois'];	$operador = $_POST['operador'];	$calculadora = new Calculadora($valorUm, $valorDois, $operador);	echo $calculadora->Calcular();?>
